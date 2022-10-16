@@ -1,0 +1,40 @@
+.suggestions-container {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  max-height: 180px;
+  width: 400px;
+  padding: 0;
+  overflow: scroll;
+  background-color: #fff;
+  z-index: 99999;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.suggestions-list {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.suggestions-item {
+  margin-bottom: 6px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.suggestions-item:last-child {
+  margin-bottom: 0;
+}
+
+.suggestions-item:hover {
+  background-color: #ddd;
+}
+
+.suggestions-item .matching-part {
+  font-weight: bold;
+  color: red;
+}

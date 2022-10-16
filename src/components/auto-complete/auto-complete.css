@@ -1,0 +1,10 @@
+.auto-complete-wrapper {
+  position: relative;
+  text-align: left;
+  width: 400px;
+}
+
+.auto-complete-input {
+  width: 400px;
+  height: 24px;
+}
